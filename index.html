@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown Game Store</title>
+    <link rel="icon" href="/img/crown.png">
+    <link href="/dist/output.css" rel="stylesheet">
+     
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.13.4/dist/full.css" rel="stylesheet" type="text/css" />
+<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+<!-- Start Component -->
+     <!-- Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper/swiper-bundle.min.css"
+   />
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ 
+<!-- End Component -->
+
+</head>
+
+
+<body>
+
+<!-- Header Start -->
+<header class="bg-transparent absolute top-0 left-0 w-full mx-auto flex items-center z-10">
+    <div class="container mx-auto">
+        <div class="flex items-center justify-between relative ">
+            <div class="px-4 py-10 ">
+                <a href="#" class=" font-bold text-lg text-yellow-500 block py-6"><img src="/img/logonav.png" alt="crowngamesstore"></a>
+            </div>
+            <div class="flex items-center px-4">
+                <button id="hamburger" name="hamburger" type="button" class="block absolute right-4  lg:hidden">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="#carousel" class="font-semibold text-base text-black py-2 mx-8 flex group-hover:text-yellow-500">Beranda</a>
+                        </li>
+                        <li class="group">
+                            <a href="#char" class="font-semibold text-base text-black py-2 mx-8 flex group-hover:text-yellow-500">Char Point Blank</a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="font-semibold text-base text-black py-2 mx-8 flex group-hover:text-yellow-500">Top Up Game</a>
+                        </li>
+                        <li class="group">
+                            <a href="#contact" class="font-semibold text-base text-black py-2 mx-8 flex group-hover:text-yellow-500">Tentang Kami</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+
+
+<!-- Carousel Start -->
+<div id="carousel" class="container mx-auto " style="padding-top: 110px;">
+<div class="swiper mySwiper ">
+  <div class="swiper-wrapper ">
+    <div class="swiper-slide ">
+      <img
+        class="object-cover w-full h-96"
+        src="/img/1.2jpg.jpg"
+        alt="image"
+      />
+    </div>
+    <div class="swiper-slide">
+      <img
+        class="object-cover w-full h-96"
+        src="https://source.unsplash.com/collection/190727/3000x900"
+        alt="image"
+      />
+    </div>
+    <div class="swiper-slide">
+      <img
+        class="object-cover w-full h-96"
+        src="https://source.unsplash.com/collection/190728/3000x900"
+        alt="image"
+      />
+    </div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+</div>
+
+<!-- Carousel End -->
+
+
+<!-- Hero Start -->
+<section id="char" class="pt-10 px-11">
+    <h2 class="text-2xl font-bold tracking-tight text-gray-900 text-center my-4 ">Char Point Blank</h2> 
+    <!---CardUN--->
+    <div class="container mx-auto pb-10 px-7 font-inter sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly">
+
+        <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white sm:mb-0 sm:w-64 md:w-75 lg:w-72">
+        <a href="https://postimg.cc/gallery/Z3BBpFV">
+          <a href="https://postimg.cc/gallery/Z3BBpFV" target="_blank"><img src="https://i.postimg.cc/qNNg4K11/Point-Blank-20220404-153110.jpg" alt="Point-Blank-20220404-153110" class="w-full"/></a><br/><br/>
+          <div class="px-6 py-4"> 
+      
+      <div aria-hidden="true" class=" font-bold text-xl mb-2 text-slate-600">Major General (B2)</div></a>
+      <p class="text-sm text-slate-400">SC-2010 Permanen + Change Nickname + Black Beret Skull 7 Day.</p>
+      <a href="https://postimg.cc/gallery/Z3BBpFV"><button class="btn btn-sm btn-primary object-bottom mt-3 sm:btn-sm md:btn-sm lg:btn-sm ">Lihat Selengkapnya</button></a>
+      
+    </div>
+        </div>
+        <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white sm:mb-0 sm:w-64 md:w-75 lg:w-72">
+          <a href="#">
+          <img src="https://play-lh.googleusercontent.com/IGOlY-TMU0cGW_I8EFKBkLACxPLu1TQqbqaqx7NUsGMyjNWIO1NdhwdBrq-71pUAHw" alt="Image" class="w-full"/>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-slate-600">Image Tittle</div>
+          </a>
+            <p class="text-sm text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nesciunt.</p>
+            <button class="btn btn-sm btn-primary object-bottom mt-3 sm:btn-sm md:btn-sm lg:btn-sm ">Lihat Selengkapnya</button>
+          </div>
+             </div>
+             <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white sm:mb-0 sm:w-64 md:w-75 lg:w-72">
+              <a href="#">
+              <img src="http://source.unsplash.com/600x500" alt="Image" class="w-full"/>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-slate-600"> Tittle</div>
+              </a>
+                <p class="text-sm text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nesciunt.</p>
+                <button class="btn btn-sm btn-primary mt-3 sm:btn-sm md:btn-sm lg:btn-sm ">Lihat Selengkapnya</button>
+              </div>
+                 </div>
+                 <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white sm:mb-0 sm:w-64 md:w-75 lg:w-72">
+                    <a href="#">
+                    <img src="http://source.unsplash.com/600x500" alt="Image" class="w-full"/>
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2 text-slate-600"> Tittle</div>
+                    </a>
+                      <p class="text-sm text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nesciunt.</p>
+                    </div>
+                       </div>
+                       <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white sm:mb-0 sm:w-64 md:w-75 lg:w-72">
+                        <a href="#">
+                        <img src="http://source.unsplash.com/600x500" alt="Image" class="w-full"/>
+                        <div class="px-6 py-4">
+                          <div class="font-bold text-xl mb-2 text-slate-600">Image Tittle</div>
+                        </a>
+                          <p class="text-sm text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nesciunt.</p>
+                        </div>
+                           </div>
+                 <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white sm:mb-0 sm:w-64 md:w-75 lg:w-72">
+                  <a href="#">
+                  <img src="http://source.unsplash.com/600x500" alt="Image" class="w-full"/>
+                  <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-slate-600">Image Tittle</div>
+                  </a>
+                    <p class="text-sm text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nesciunt.</p>
+                  </div>
+                     </div>
+                     <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white sm:mb-0 sm:w-64 md:w-75 lg:w-72">
+                      <a href="#">
+                      <img src="http://source.unsplash.com/600x500" alt="Image" class="w-full"/>
+                      <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2 text-slate-600">Image Tittle</div>
+                      </a>
+                        <p class="text-sm text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nesciunt.</p>
+                      </div>
+                         </div>
+                         
+                         <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white sm:mb-0 sm:w-64 md:w-75 lg:w-72">
+                          <a href="#">
+                          <img src="http://source.unsplash.com/600x500" alt="Image" class="w-full"/>
+                          <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2 text-slate-600">Image Tittle</div>
+                          </a>
+                            <p class="text-sm text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nesciunt.</p>
+                          </div>
+                             </div>
+    
+       </div>
+    
+     <!---EndCardUN--->
+    </div> 
+</section>
+<!-- Hero End -->
+
+
+
+<!-- Footer Start -->
+<!-- Footer -->
+<footer class="footer p-10  bg-neutral text-neutral-content">
+  <div>
+   <img class="w-24" src="/img/crown.png" alt="CrownJasaGB">  <p class="justify-center"><b>CROWN GAMES STORE</b><br>Penyedia Layanan Game Terbaik di Indonesia<br>Berdiri pada Tahun 2020</p>
+  </div> 
+  <div>
+    <span id="contact" class="footer-title">Contact</span> 
+    
+      <p class="flex items-center justify-center md:justify-start sm:justify-start sm:items-start md:items-start mb-4">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
+          class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+          <path fill="currentColor"
+            d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
+          </path>
+        </svg>
+        Pangkalan Berandan, Kab. Langkat, Kode Pos 20857, Indonesia
+      </p>
+      <p class="flex items-center justify-center md:justify-start mb-4">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
+          class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+          </path>
+        </svg>
+        info@crowngames.com
+      </p>
+      <p class="flex items-center justify-center md:justify-start mb-4">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
+          class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+          </path>
+        </svg>
+        + 62 813-6053-9199
+      </p>
+     <a href="https://api.whatsapp.com/send/?phone=6285262682137&text&app_absent=0"> <p class="flex items-center justify-center md:justify-start mb-4">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
+          class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="27" height="27"
+        viewBox="0 0 30 30"
+        style=" fill:#a9b1be;">    
+        <path d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"></path></svg>
+        +62 852-6268-2137
+      </p></a>
+  
+        
+    </div>
+    <div>
+      <span class="footer-title">Social Media</span> 
+      <div class="grid grid-flow-col gap-4">
+        <a href="www.instagram.com/crownstore04"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+          width="29" height="29"
+          viewBox="0 0 30 30"
+          style=" fill:#A6ADBA;">    <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path></svg></a> 
+        <a><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+          width="30" height="30"
+          viewBox="0 0 30 30"
+          style=" fill:#A6ADBA;">    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.104,4,24,4z M22.689,13.474 c-0.13,0.012-0.261,0.02-0.393,0.02c-1.495,0-2.809-0.768-3.574-1.931c0,3.049,0,6.519,0,6.577c0,2.685-2.177,4.861-4.861,4.861 C11.177,23,9,20.823,9,18.139c0-2.685,2.177-4.861,4.861-4.861c0.102,0,0.201,0.009,0.3,0.015v2.396c-0.1-0.012-0.197-0.03-0.3-0.03 c-1.37,0-2.481,1.111-2.481,2.481s1.11,2.481,2.481,2.481c1.371,0,2.581-1.08,2.581-2.45c0-0.055,0.024-11.17,0.024-11.17h2.289 c0.215,2.047,1.868,3.663,3.934,3.811V13.474z"></path></svg></a> 
+        <a href="www.facebook.com/nst.kiki"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+          width="30" height="30"
+          viewBox="0 0 30 30"
+          style=" fill:#A6ADBA;">    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h10v-9h-3v-3h3v-1.611C16,9.339,17.486,8,20.021,8 c1.214,0,1.856,0.09,2.16,0.131V11h-1.729C19.376,11,19,11.568,19,12.718V14h3.154l-0.428,3H19v9h5c1.105,0,2-0.895,2-2V6 C26,4.895,25.104,4,24,4z"></path></svg></a>
+          </div>
+
+  </div>
+</footer>
+  <div class="text-center p-2 pb-5 bg-neutral text-xs sm:text-sm lg:text-sm">
+    <span>© 2022 Copyright</span>
+    <a class="text-gray-600 font-semibold" href="https://instagram.com/crownstore04">Crown Games Store</a>
+  </div>
+</footer>
+<!-- Footer End -->
+
+<script src="/dist/js/script.js"></script>
+</body>
+</html>
